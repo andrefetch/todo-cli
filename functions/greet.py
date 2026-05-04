@@ -20,3 +20,7 @@ def greet():
    print(todo_art)
 
    print(line)
+  
+def ask_questions():
+    questions = int(input("1. Add to to-do list\n2. See items in to-do list.\n3. Remove items in to-do list (index)\nYour Input: "))
+    return questions
